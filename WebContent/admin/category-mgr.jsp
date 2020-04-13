@@ -26,19 +26,21 @@
 			    	<tr>
 			    		<td class="header" width="200">图书分类</td>
 			    		<td class="header" width="60">操作</td>
-			    	</tr>			    
+			    	</tr>
+			    	<c:forEach items="list" var="cs">		    
 			    	<tr>
-			    		<td>小说</td>
-			    		<td><a href="#">删除</a></td>
-			    	</tr>			    
-			    	<tr>
+			    		<td>${cs.category}</td>
+			    		<td><a href="">删除</a></td>
+			    	</tr>
+			    	</c:forEach>				    
+			    	<!-- <tr>
 			    		<td>历史</td>
 			    		<td><a href="#">删除</a></td>
 			    	</tr>			    
 			    	<tr>
 			    		<td>玄幻</td>
 			    		<td><a href="#">删除</a></td>
-			    	</tr>			    
+			    	</tr> -->			    
 			    </table>
 			</div>
 			<div class="section-right">

@@ -8,5 +8,6 @@ public interface CategoryService {
 	//查找数据
 	List<BookCategory> getCategoryList();
 	//添加数据
-	boolean saveCategory(BookCategory category);
+	boolean saveCategory(String category);
+	boolean deletecategory(int id);
 }
